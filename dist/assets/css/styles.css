@@ -563,16 +563,16 @@ h1,h2,h3,h4,h5,h6 {
   height: 2rem;
 }
 
-.w-\[90\%\] {
-  width: 90%;
+.w-1\/2 {
+  width: 50%;
 }
 
 .w-16 {
   width: 4rem;
 }
 
-.w-1\/2 {
-  width: 50%;
+.w-\[90\%\] {
+  width: 90%;
 }
 
 .max-w-screen-xl {
@@ -612,27 +612,18 @@ h1,h2,h3,h4,h5,h6 {
   border-bottom-width: 2px;
 }
 
+.bg-\[var\(--bg-circle\2c white\)\] {
+  background-color: var(--bg-circle,white);
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[var\(--bg-circle\)\] {
-  background-color: var(--bg-circle);
-}
-
-.bg-\[var\(--bg-circle\2c white\)\] {
-  background-color: var(--bg-circle,white);
-}
-
-.bg-red-400 {
+.bg-light-grayish {
   --tw-bg-opacity: 1;
-  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
-}
-
-.bg-gray-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+  background-color: hsl(230 22% 74% / var(--tw-bg-opacity));
 }
 
 .from-gradient-switch-first {
@@ -720,10 +711,6 @@ h1,h2,h3,h4,h5,h6 {
 
 .peer:checked ~ .peer-checked\:bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
-}
-
-.peer:checked ~ .peer-checked\:\[--transform-circle\:100\%\] {
-  --transform-circle: 100%;
 }
 
 .peer:checked ~ .peer-checked\:\[--transform-circle\:-100\%\] {
