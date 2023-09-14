@@ -1,16 +1,19 @@
 {
-  "name": "dashboard",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx tailwindcss -i ./src/css/tailwind.css -o ./dist/assets/css/styles.css --watch"
-  },
-  "keywords": [],
   "author": "",
-  "license": "ISC",
+  "description": "",
   "devDependencies": {
+    "gh-pages": "^6.0.0",
     "tailwindcss": "^3.3.3"
-  }
+  },
+  "homepage": "https://github.com/pbelmarv/tailwind_dashboard_social_theme",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.html",
+  "name": "dashboard",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/css/tailwind.css -o ./dist/assets/css/styles.css --watch",
+    "deploy": "gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
 }
